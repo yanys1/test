@@ -13,7 +13,7 @@
 
 ```
 	if [ -f /opt/ros/kinetic/setup.bash ]; then
-       	source /opt/ros/kinetic/setup.bash
+       	    source /opt/ros/kinetic/setup.bash
     	fi
 ```
 然后应该建立catkin的工作空间来编译以及安装源代码。例如可以建立`~/catkin_ws`.然后：
